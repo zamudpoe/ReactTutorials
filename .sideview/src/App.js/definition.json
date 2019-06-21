@@ -1,0 +1,56 @@
+{
+    "base": {
+        "componentType": "react",
+        "entryFilePath": "/src/App.js"
+    },
+    "metaData": {
+        "componentName": "App",
+        "fileType": "js",
+        "isNamedExport": false,
+        "type": "react"
+    },
+    "paths": {
+        "entryFile": "App.js",
+        "entryFileExt": ".js",
+        "entryFileFolder": "/src",
+        "absoluteEntryFilePath": "/src/App.js",
+        "previewFolder": "/.sideview/src/App.js/",
+        "absoluteSettingsPath": "/.sideview/src/App.js/settings.json",
+        "storyFolder": "/.sideview/src/App.js/stories"
+    },
+    "settings": {
+        "export": {
+            "path": "/",
+            "fileName": "exported.bundle.js"
+        },
+        "inspect": true,
+        "targetEnvironment": "web",
+        "debug": {
+            "resolverDebug": false,
+            "resolveLoaderDebug": false
+        },
+        "statsReporting": true
+    },
+    "stories": {
+        "jsExt": "jsx",
+        "htmlExt": "html"
+    },
+    "dependencies": {
+        "@babel/preset-env": "^7.4.1",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.5",
+        "@babel/core": "^7.4.0",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3",
+        "webpack-hot-client": "^4.1.1",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-flow-strip-types": "^6.22.0",
+        "babel-plugin-syntax-class-properties": "6.13.0",
+        "@babel/plugin-proposal-decorators": "^7.2.3",
+        "sass-loader": "^7.0.3",
+        "style-loader": "^0.20.1",
+        "css-loader": "^1.0.1",
+        "babel-plugin-styled-components": "^1.10.0",
+        "file-loader": "^2.0.0"
+    }
+}

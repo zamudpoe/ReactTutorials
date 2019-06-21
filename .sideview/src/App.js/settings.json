@@ -1,0 +1,13 @@
+{
+    "export": {
+        "path": "/",
+        "fileName": "exported.bundle.js"
+    },
+    "inspect": true,
+    "targetEnvironment": "web",
+    "debug": {
+        "resolverDebug": false,
+        "resolveLoaderDebug": false
+    },
+    "statsReporting": true
+}
