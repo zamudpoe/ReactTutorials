@@ -1,5 +1,5 @@
 /* ::::::::::::::::::: Declaraciones GLOBALES ::::::::::::::::::::: */
-import React, { useReducer } from 'react'
+import React, { useReducer, useEffect } from 'react'
 
 /* ESTADO INICIAL CON DOS ESTADOS */
 const initialState = {
@@ -35,9 +35,12 @@ const reducer = ( state, action ) => {
 
 /* ::::::::::::: COMPONENTE  FUNCIONAL <CounterOne /> ::::::::::::: */
 function CounterTwo () {
-  const [ count , dispatch ] = useReducer(reducer, initialState)
+  const [ count, dispatch ] = useReducer(reducer, initialState)
 
-  console.log('State: %s AFTER action apply\n', count.firstCounter)
+  useEffect(() => {
+    console.log('State AFTER Action Apply: [ %o ]\n', count)
+  }, [count]) // Only re-run the effect if count changes
+
   return (
     <div>
       <hr/>
