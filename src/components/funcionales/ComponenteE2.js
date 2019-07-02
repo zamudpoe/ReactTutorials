@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 
 import ComponentF from './ComponenteF'
 
-import { UserContext, ChannelContext } from '../../App'
+import { UserContext } from '../../App'
 
 function ComponentE () {
 
@@ -10,7 +10,7 @@ function ComponentE () {
 
   return (
     <div>
-      <h3>{user.name}</h3>
+      <h3>{user}</h3>
       <ComponentF />
     </div>
   )

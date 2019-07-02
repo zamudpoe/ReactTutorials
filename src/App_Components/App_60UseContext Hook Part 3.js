@@ -3,11 +3,11 @@ import { Logo }     from './components/funcionales/Logo'
 import './App.css'
 import ComponentC from './components/funcionales/ComponenteC'
 
-const userObject = {
+/* const userObject = {
   name     : 'Engelbert Zamudio Ponzzi',
   shortName: 'Engel',
   email    : 'engel_zamudio@icloud.com'
-}
+} */
 
 export const UserContext    = React.createContext()
 export const ChannelContext = React.createContext()

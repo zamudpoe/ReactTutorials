@@ -3,11 +3,12 @@ import { Logo }     from './components/funcionales/Logo'
 import './App.css'
 import ComponentC from './components/funcionales/ComponenteC'
 
+/*
 const userObject = {
   name     : 'Engelbert Zamudio Ponzzi',
   shortName: 'Engel',
   email    : 'engel_zamudio@icloud.com'
-}
+} */
 
 export const UserContext    = React.createContext()
 export const ChannelContext = React.createContext()
@@ -18,7 +19,7 @@ function App () {
   return (
     <div className='App'>
       <Logo />
-      <UserContext.Provider value={ userObject }>
+      <UserContext.Provider value={ 'Engelbert Zamudio Ponzzi'}>
         <ChannelContext.Provider value={'Codevolution'}>
           <ComponentC />
         </ChannelContext.Provider>

@@ -1,5 +1,5 @@
 import React from 'react'
-import ComponentF from './ComponenteF';
+import ComponentF from './ComponenteF'
 
 function ComponentE () {
   return (

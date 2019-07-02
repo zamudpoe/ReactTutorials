@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import ComponentF from './ComponenteF'
+/* import ComponentF from './ComponenteF' */
 import { UserContext, ChannelContext } from '../../App'
 
 function ComponentE () {
@@ -9,7 +9,8 @@ function ComponentE () {
 
   return (
     <div>
-      { user } - { channel }
+      {/* { user } - { channel } */}
+      { user.shortName } - { channel }    {/* <- aqui usamos un objeto recibido por el padre */}
       {/* <ComponentF /> */}
     </div>
   )
@@ -19,7 +20,6 @@ export default ComponentE
 
 
 /*
-
 
                                     <AppComponent />
 
@@ -44,8 +44,5 @@ export default ComponentE
 
   LISTOOOO COMO PODEMOS VER ES MAS SIMPLE USAR EL CONTEXTO DE ESTA FORMA QUE HACIENDO
   USO DE CONTEXTO ANIDADO COMO EN EL <ComponenteF />
-
-
-
 
 */
