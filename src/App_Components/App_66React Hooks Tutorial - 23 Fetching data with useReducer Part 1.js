@@ -13,7 +13,6 @@ function App () {
   )
 }
 
-
 export default App
 /*
   :::::::::::::::::::::::::::::::::::: 66 React Hooks Tutorial: 23 Fetching data with useReducer Part 1 ::::::::::::::::::::::::::::::::::::
