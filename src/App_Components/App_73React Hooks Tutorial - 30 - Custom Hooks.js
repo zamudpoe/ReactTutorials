@@ -20,4 +20,10 @@ export default App
                                                                                       Lunes 9:00 AM
                                                                                   Agosto 06 del 2019
 
+  * Un Custom Hook es basicamente una funcion JS cuyo nombre comienza con "use"
+  * Un custom Hook puede llamar otro Hook si lo requiere
+
+  Por que?
+  Compartir logica - Alternativa a los patrones de  HOC's y Renders Props.
+
 */
